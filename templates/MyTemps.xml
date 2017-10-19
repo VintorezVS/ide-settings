@@ -1,0 +1,10 @@
+<templateSet group="MyTemps">
+  <template name="imp" value="import $COMPONENT$ from '$PATH$/$COMPONENT$';" description="Import component" toReformat="false" toShortenFQNames="true">
+    <variable name="COMPONENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
+  </template>
+</templateSet>
